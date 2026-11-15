@@ -3,83 +3,120 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cải tiến thẻ sản phẩm</title>
+  <title>Sản phẩm nổi bật - Vihand DIY Store (Giao diện cải tiến)</title>
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header class="site-header">
-    <h1>Sản phẩm nổi bật</h1>
-    <p class="note">Dữ liệu mẫu phục vụ bài tập</p>
+
+  <!-- Thanh tiêu đề & Tìm kiếm cải tiến -->
+  <header class="top-header">
+    <div class="container header-content">
+      <a href="#" class="logo">VIHAND <span>DIY STORE</span></a>
+      <form class="search-box" onsubmit="return false;">
+        <input type="text" placeholder="Tìm bút vẽ, màu nhuộm vải, sơn giày...">
+        <button type="submit">Tìm kiếm</button>
+      </form>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="product-grid">
+  <!-- Nội dung chính: Khu vực Sản phẩm nổi bật -->
+  <main class="main-content">
+    <section class="container">
+      <div class="section-header">
+        <h1>Sản phẩm nổi bật</h1>
+        <p>Dữ liệu mẫu phục vụ bài tập cải tiến giao diện thương mại điện tử</p>
+      </div>
 
-      <article class="product-card">
-        <div class="product-image">
-          <img src="images/product-1.png" alt="Bút marker mẫu">
-        </div>
-        <div class="product-info">
-          <p class="product-brand">Thương hiệu mẫu A</p>
-          <h2 class="product-name">Bút marker mẫu</h2>
-          <p class="product-desc">Mô tả ngắn về bút marker mẫu.</p>
-          <p class="product-price">150.000đ</p>
-          <div class="product-actions">
-            <a href="#" class="btn btn-outline">Xem chi tiết</a>
-            <a href="#" class="btn btn-primary">Báo giá</a>
+      <div class="product-grid">
+        <!-- Thẻ sản phẩm 1 -->
+        <article class="product-card">
+          <div class="product-image">
+            <span class="badge">Bán chạy</span>
+            <img src="images/product-1.png" alt="Bút marker mẫu">
           </div>
-        </div>
-      </article>
-
-      <article class="product-card">
-        <div class="product-image">
-          <img src="images/product-2.png" alt="Màu nhuộm vải mẫu">
-        </div>
-        <div class="product-info">
-          <p class="product-brand">Thương hiệu mẫu B</p>
-          <h2 class="product-name">Màu nhuộm vải mẫu</h2>
-          <p class="product-desc">Mô tả ngắn về màu nhuộm vải mẫu.</p>
-          <p class="product-price">Liên hệ</p>
-          <div class="product-actions">
-            <a href="#" class="btn btn-outline">Xem chi tiết</a>
-            <a href="#" class="btn btn-primary">Báo giá</a>
+          <div class="product-info">
+            <span class="brand">THƯƠNG HIỆU MẪU A</span>
+            <h2 class="product-title">Bút marker màu mẫu</h2>
+            <p class="product-desc">Bộ bút vẽ đa năng chuyên dụng trên nhiều bề mặt thủ công.</p>
+            <div class="price-box">
+              <span class="current-price">150.000đ</span>
+              <span class="old-price">185.000đ</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline">Xem chi tiết</a>
+              <a href="#" class="btn btn-primary">Báo giá</a>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
 
-      <article class="product-card">
-        <div class="product-image">
-          <img src="images/product-3.png" alt="Sơn custom giày mẫu">
-        </div>
-        <div class="product-info">
-          <p class="product-brand">Thương hiệu mẫu C</p>
-          <h2 class="product-name">Sơn custom giày mẫu</h2>
-          <p class="product-desc">Mô tả ngắn về sơn custom giày mẫu.</p>
-          <p class="product-price">220.000đ</p>
-          <div class="product-actions">
-            <a href="#" class="btn btn-outline">Xem chi tiết</a>
-            <a href="#" class="btn btn-primary">Báo giá</a>
+        <!-- Thẻ sản phẩm 2 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img src="images/product-2.png" alt="Màu nhuộm vải mẫu">
           </div>
-        </div>
-      </article>
-
-      <article class="product-card">
-        <div class="product-image">
-          <img src="images/product-4.png" alt="Bút chì màu mẫu">
-        </div>
-        <div class="product-info">
-          <p class="product-brand">Thương hiệu mẫu D</p>
-          <h2 class="product-name">Bút chì màu mẫu</h2>
-          <p class="product-desc">Mô tả ngắn về bút chì màu mẫu.</p>
-          <p class="product-price">Liên hệ</p>
-          <div class="product-actions">
-            <a href="#" class="btn btn-outline">Xem chi tiết</a>
-            <a href="#" class="btn btn-primary">Báo giá</a>
+          <div class="product-info">
+            <span class="brand">THƯƠNG HIỆU MẪU B</span>
+            <h2 class="product-title">Màu nhuộm vải mẫu</h2>
+            <p class="product-desc">Dung dịch nhuộm bền màu dành cho chất liệu cotton và vải tự nhiên.</p>
+            <div class="price-box">
+              <span class="current-price">95.000đ</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline">Xem chi tiết</a>
+              <a href="#" class="btn btn-primary">Báo giá</a>
+            </div>
           </div>
-        </div>
-      </article>
+        </article>
 
+        <!-- Thẻ sản phẩm 3 -->
+        <article class="product-card">
+          <div class="product-image">
+            <span class="badge">Mới</span>
+            <img src="images/product-3.png" alt="Sơn custom giày mẫu">
+          </div>
+          <div class="product-info">
+            <span class="brand">THƯƠNG HIỆU MẪU C</span>
+            <h2 class="product-title">Sơn custom giày mẫu</h2>
+            <p class="product-desc">Màu vẽ chuyên dụng cho bề mặt da, chống nứt gãy khi vận động.</p>
+            <div class="price-box">
+              <span class="current-price">220.000đ</span>
+              <span class="old-price">250.000đ</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline">Xem chi tiết</a>
+              <a href="#" class="btn btn-primary">Báo giá</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Thẻ sản phẩm 4 -->
+        <article class="product-card">
+          <div class="product-image">
+            <img src="images/product-4.png" alt="Bút chì màu mẫu">
+          </div>
+          <div class="product-info">
+            <span class="brand">THƯƠNG HIỆU MẪU D</span>
+            <h2 class="product-title">Bút chì màu mẫu</h2>
+            <p class="product-desc">Chì màu lõi mềm dễ tán màu, phù hợp vẽ minh họa và phác thảo.</p>
+            <div class="price-box">
+              <span class="current-price">135.000đ</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="btn btn-outline">Xem chi tiết</a>
+              <a href="#" class="btn btn-primary">Báo giá</a>
+            </div>
+          </div>
+        </article>
+      </div>
     </section>
   </main>
+
+  <!-- Chân trang -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>Bài tập Phát triển ứng dụng WEB/TMĐT – Giao diện mẫu cải tiến dựa trên khảo sát Vihand.com.vn</p>
+    </div>
+  </footer>
+
 </body>
 </html>
