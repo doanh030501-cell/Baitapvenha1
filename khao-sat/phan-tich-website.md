@@ -17,4 +17,4 @@
 | Giỏ hàng | Trong các trang đã xem (trang chủ, tìm kiếm, kết quả, chi tiết sản phẩm) không thấy giỏ hàng, chỉ có wishlist; chân trang dẫn sang Shopee, Lazada, TikTok Shop | Có liên kết sang các sàn quen thuộc và mục "Hướng dẫn mua hàng" nên khách có nơi để mua | Khách phải gọi điện hoặc sang sàn khác để mua, không đặt hàng trực tiếp được trên website | Nói rõ ngay trên trang sản phẩm cách mua (qua sàn, Zalo hay báo giá), vì khách cần biết bước tiếp theo |
 
 ## 3. Ghi chú
-Nhận xét dựa trên các trang tôi đã mở và ảnh chụp ngày 14/11/2026. Giao diện website có thể thay đổi theo thời gian.
+Nhận xét dựa trên các trang đã mở và ảnh chụp ngày 14/11/2026.
